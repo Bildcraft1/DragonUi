@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -12,7 +16,7 @@
   justify-content: inherit;
   align-items: inherit;
   font-size: 0.85rem;
-  max-width: var(--max-width);
+  max-width: 50%;
   width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
@@ -41,8 +45,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  width: var(--max-width);
+  grid-template-columns: repeat(2, minmax(100%, auto));
+  width: 50%;
   max-width: 100%;
 }
 
@@ -51,7 +55,15 @@
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
+  font-family: 'Roboto', sans-serif;
   transition: background 200ms, border 200ms;
+}
+
+.title {
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+  font-family: 'Roboto', sans-serif;
 }
 
 .card span {

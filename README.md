@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DragonStatistics UI (DragonUI)
+
+DragonUI is a web application that allows you to view statistics about your server
+using the [DragonStatistics](https://github.com/Bildcraft1/DragonStats) server and [DragonCore](https://github.com/Bildcraft1/DragonCore) plugin.
 
 ## Getting Started
 
