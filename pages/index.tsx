@@ -90,9 +90,9 @@ export default function App({ json, dailyjson, alljson }) {
 }
 
 export async function getServerSideProps(){
-  const api = "http://mc.dragoncraft.it:8800/api/v1/players/average";
-  const dailyapi = "http://mc.dragoncraft.it:8800/api/v1/players/day";
-  const allapi = "http://mc.dragoncraft.it:8800/api/v1/players/all";
+  const api = "http://stats:8080/api/v1/players/average";
+  const dailyapi = "http://stats:8080/api/v1/players/day";
+  const allapi = "http://stats:8080/api/v1/players/all";
     const res = await fetch(allapi);
     const alljson = await res.json();
 
