@@ -2,8 +2,8 @@ import React, {useEffect, useRef} from "react";
 import Chart from "chart.js/auto";
 
 // @ts-ignore
-export default function _allreturn({ json }) {
-    let usersData = json.map((item: { player: any; }) => item.player);
+export default function DayReturn({ json }) {
+    let usersData = json.map((item: { averageCount: any; }) => item.averageCount);
     let timeData = json.map((item: { time: any; }) => item.time);
 
     const canvasEl = useRef(null);
@@ -60,6 +60,6 @@ export default function _allreturn({ json }) {
     });
 
     return (
-        <canvas id="AllChart" ref={canvasEl} height="100" />
+                <canvas id="myChart" ref={canvasEl} height="100" />
     );
 }

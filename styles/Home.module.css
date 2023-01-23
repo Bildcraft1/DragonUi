@@ -7,7 +7,7 @@
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
   align-items: center;
-  padding: 6rem;
+  padding: 20rem;
   min-height: 100vh;
 }
 
@@ -47,7 +47,7 @@
   display: grid;
   grid-template-columns: repeat(2, minmax(100%, auto));
   width: 50%;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .card {
@@ -194,7 +194,7 @@
   .grid {
     grid-template-columns: 1fr;
     margin-bottom: 120px;
-    max-width: 320px;
+    max-width: 500px;
     text-align: center;
   }
 
